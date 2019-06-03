@@ -23,9 +23,9 @@ class Song
     @@count 
   end 
 
-  def self.genres(genre)
-    if @@genres.include?(genre) == false
-      @@genres << genre 
+  def self.genres(:genre)
+    if @@genres.include?(:genre) == false
+      @@genres << :genre 
     end
     @@genres
   end 
