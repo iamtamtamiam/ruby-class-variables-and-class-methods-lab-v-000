@@ -9,7 +9,8 @@ class Song
     @artist = artist
     @genre = genre 
     @@count += 1 
-    if @@genre.key?(genre) == true 
+    if @@genre.include?(genre) == true
+      
       
       
   end
