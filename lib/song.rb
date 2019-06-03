@@ -23,7 +23,7 @@ class Song
     @@count 
   end 
 
-  def self.genres
+  def self.genres(genre)
     if @@genres.include?(genre) == false
       @@genres << genre 
     end
